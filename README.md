@@ -1,11 +1,11 @@
-# AI Resume Screening System 
+# AI Resume Screening System
 
-##  Project Overview
-AI Resume Screening System is a Python-based project that analyzes resumes by extracting skills and matching them with predefined job roles. It recommends suitable career paths based on skill similarity and also identifies missing skills for improvement.
+## Project Overview
+AI Resume Screening System is a Python based project that analyzes resumes by extracting skills and matching them with predefined job roles. It recommends suitable career paths based on skill similarity and identifies missing skills for improvement.
 
 ---
 
-##  Features
+## Features
 - Resume text extraction from PDF  
 - Skill detection from resume content  
 - Job role matching using skill comparison  
@@ -15,33 +15,49 @@ AI Resume Screening System is a Python-based project that analyzes resumes by ex
 
 ---
 
-##  Technologies Used
-- Python 
-- Pandas 
-- PDFPlumber / PyPDF2 
+## Technologies Used
+- Python  
+- Pandas  
+- PDFPlumber / PyPDF2  
 - Google Colab  
 
 ---
 
 ## Project Workflow
-1. Upload Resume (PDF)  
+1. Upload resume in PDF format  
 2. Extract text from resume  
-3. Detect skills from text  
-4. Compare skills with job dataset  
-5. Calculate match score  
-6. Recommend best job roles  
+3. Convert text to lowercase for processing  
+4. Detect skills from extracted text  
+5. Compare skills with job dataset  
+6. Calculate match percentage  
+7. Recommend top 3 job roles  
 
 ---
 
-##  How It Works
-- The system reads resume content  
-- Converts text into lowercase for processing  
-- Matches extracted skills with job requirements  
-- Calculates score based on matching skills  
-- Sorts and shows top 3 job roles  
+## How It Works
+- The system reads resume content from PDF  
+- Extracts skills using predefined skill list  
+- Matches extracted skills with job roles  
+- Calculates similarity score for each role  
+- Sorts and displays best matching careers  
 
 ---
 
-##  Output Example
-- Data Scientist → 75% match  
-- Data Analyst → 60% match  
+## Output Example
+- Data Scientist → 75 percent match  
+- Data Analyst → 60 percent match  
+- Machine Learning Engineer → 50 percent match  
+
+---
+
+## Learning Outcomes
+- PDF text extraction using Python  
+- Basic Natural Language Processing  
+- Skill matching logic  
+- Data analysis using Pandas  
+- Real world AI application building  
+
+---
+
+## Author
+Swathi Anbuchezhiyan
